@@ -1,0 +1,11 @@
+📌 1. Order of Execution
+Run these files in sequence:
+
+workload_simulator.py – Generate workload samples
+energy_collector.py – Collect power metrics from workloads
+model_trainer.py – Train models for classification and throughput prediction
+workload_detector.py – Train workload detection models (XGBoost)
+kernel_param_adjuster.py – Apply Linux kernel parameters (requires root)
+cma_es_tuner.py – Tune parameters using CMA-ES
+main.py – Run the complete workflow
+
